@@ -55,6 +55,28 @@ main {
     justify-self: center;
 }
 
+#Img.pedal {
+    transform: scale(3)
+                translate(-10%, -20%);
+}
+
+#Img.timon {
+    transform:  scale(3)
+                translate(5%, 15%);
+}
+
+#Img.asiento {
+    transform: scale(4)
+                translate(-17%, 20%)
+}
+
+#Img.aro {
+    transform: scale(2.5)
+                translate(20%, -26%)
+}
+
+
+
 .circle {
     display: none;
 }
