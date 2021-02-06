@@ -9,7 +9,7 @@ html {
     color: white;
     font-family: 'Montserrat';
     padding:0 5rem;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
     /* height: 100vh; */
     display: grid;
     grid-template-rows: 6rem 1fr;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 header {
@@ -126,7 +126,6 @@ button:hover span svg {
 }
 
 .bike {
-
     grid-column: 2/3;
     grid-row: 1/3;
 }
@@ -144,7 +143,7 @@ figure img {
 
     z-index: -1;
     /* left: 5rem; */
-    bottom: -3rem;
+    /* bottom: -3rem; */
 }
 
 .characteristics {
@@ -155,8 +154,8 @@ figure img {
     width: 100%;
     display: flex;
     justify-self: end;
-    padding: 2rem 0;
     justify-content: space-evenly;
+    align-items: center;
     border-radius: 1rem;
     backdrop-filter: blur(10px);
     border: rgba(255, 255, 255, 0.034) solid 1px ;
@@ -217,4 +216,20 @@ figure img {
 .circle:nth-child(2){
     top: -40%;
     right: -5%;
+}
+
+@media screen and (max-width:1272px){
+    .bike figure {
+        top:10rem;
+    }
+}
+
+@media screen and (max-width:1119px){
+    .bike figure {
+        top: 15rem;
+    }
+
+    .characteristics{
+        bottom: 10rem;
+    }
 }
