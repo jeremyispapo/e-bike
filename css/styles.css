@@ -210,7 +210,7 @@ figure img {
     background: radial-gradient(circle, rgba(172,176,255,1) 0%, rgba(101,109,247,1) 100%);
     border-radius: 50%;
     right: 90%;
-    z-index: 1;
+    z-index: -1;
 }
 
 .circle:nth-child(2){
