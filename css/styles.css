@@ -132,8 +132,6 @@ button:hover span svg {
 
 .bike figure {
     position: relative;
-    /* overflow: hidden; */
-    /* height: 100%; */
 }
 
 figure img {
@@ -203,7 +201,7 @@ figure img {
 }
 
 .plus {
-    width: 4rem;
+    width: 3rem;
     position: absolute;
     top: 75%;
     left: 10%;
@@ -238,9 +236,33 @@ figure img {
 #zAsiento.active,
 #zAro.active {
     transform: rotate(45deg);
-    width: 7rem;
+    width: 5rem;
     top: 5%;
     left: 5%;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    display: none;
+}
+.text h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.text p {
+    font-size: 1.4rem;
+}
+
+.pedal.active,
+.timon.active,
+.asiento.active,
+.aro.active {
+    display: inherit;
 }
 
 .circle {

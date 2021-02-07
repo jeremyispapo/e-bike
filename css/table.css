@@ -85,6 +85,20 @@ main {
     header {
         justify-content: center;
     }
+
+    .text {
+        left: 20%;
+    }
+
+    .plus {
+        width: 2.5rem;
+    }
+    #zPedal.plus.active,
+    #zTimon.active,
+    #zAsiento.active,
+    #zAro.active {
+        width: 4rem;
+    }   
 }
 
 @media screen and (max-width:518px){
@@ -98,5 +112,13 @@ main {
 
     .description p {
         font-size: 1.6rem;
+    }
+
+    .text h4 {
+        font-size: 1.5rem;
+    }
+
+    .text p {
+        font-size: 1.2rem;
     }
 }
